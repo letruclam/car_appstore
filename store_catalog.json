@@ -12,18 +12,19 @@
       "usb": true,
       "usbHint": "Tải gói .apks (64-bit) tại apkcube.com/vietmap-live-mimi-ai/vn.vietmap.live, chép vào USB rồi cắm vào xe.",
       "sha256": "3fb48ddba9e9eab5b8bb6bc0fc3e07ba03c67f2fe216bf9933d787e6e5e1f564",
-      "whitelist": true
+      "whitelist": true,
+      "url": "https://github.com/letruclam/car_appstore/releases/download/vn.vietmap.live-3.4.4/vn.vietmap.live-3.4.4.apks"
     },
     {
       "package": "org.smarttube.stable",
       "icon": "store_smarttube",
       "name": "SmartTube",
       "description": "Xem YouTube không quảng cáo, giao diện cho màn hình ngang, tự bỏ qua đoạn tài trợ.",
-      "versionName": "32.68",
-      "versionCode": 2458,
-      "sizeMb": 25.1,
-      "url": "https://github.com/yuliskov/SmartTube/releases/download/32.68s/SmartTube_stable_32.68_arm64-v8a.apk",
-      "sha256": "0a3d3f024eae66b8468f75fe85ab421169177f5ea1223a5d097d1dc9e1c84cf3",
+      "versionName": "32.71",
+      "versionCode": 2461,
+      "sizeMb": 25.5,
+      "url": "https://github.com/yuliskov/SmartTube/releases/download/32.71s/SmartTube_stable_32.71_arm64-v8a.apk",
+      "sha256": "6a799a129015e772d231440f4e3ad919f643164a0fdeb76ecb202bf3afb3db52",
       "signerSha256": "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a"
     },
     {
@@ -56,11 +57,11 @@
       "icon": "store_kreate",
       "name": "Kreate",
       "description": "Nghe YouTube Music, giao diện tối nút bấm lớn (kế nhiệm RiMusic).",
-      "versionName": "2.2.4",
-      "versionCode": 1422,
+      "versionName": "2.2.5",
+      "versionCode": 1432,
       "sizeMb": 14.8,
-      "url": "https://github.com/knighthat/Kreate/releases/download/v2.2.4/Kreate-arm64-v8a.apk",
-      "sha256": "10a983175b34c25f9c03a04feb2bb43b27e6f79a29ba1f31c7b873ca94ed48f7",
+      "url": "https://github.com/knighthat/Kreate/releases/download/v2.2.5/Kreate-arm64-v8a.apk",
+      "sha256": "4cd1bb2a4bc58b58ff5e9b22a6586214bf8657745abdd52007d980ecce15f5bd",
       "signerSha256": "1bd03a8de5df4dbd7faddb81b9f2aaf55681a584a93d6fb47e9a5ccc736ef7ac"
     }
   ]
