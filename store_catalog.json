@@ -1,0 +1,67 @@
+{
+  "_comment": "Kho ứng dụng của Geely Connect: app đọc file này mỗi lần mở kho. Đừng sửa tay url/sha256: dùng tools/publish-app.sh trong repo geely_connect. sha256 = đúng file đó, app kiểm tra trước khi cài. icon = tên logo có sẵn trong app (không có thì hiện chữ cái đầu). usb = true: nếu tải lỗi (hoặc chưa có url) thì tìm file trên USB / thư mục Download.",
+  "apps": [
+    {
+      "package": "vn.vietmap.live",
+      "icon": "store_vietmap",
+      "name": "VIETMAP LIVE",
+      "description": "Bản đồ dẫn đường cho ô tô, cảnh báo tốc độ và camera phạt nguội.",
+      "versionName": "3.4.4",
+      "versionCode": 179327630,
+      "sizeMb": 163.8,
+      "usb": true,
+      "usbHint": "Tải gói .apks (64-bit) tại apkcube.com/vietmap-live-mimi-ai/vn.vietmap.live, chép vào USB rồi cắm vào xe.",
+      "sha256": "3fb48ddba9e9eab5b8bb6bc0fc3e07ba03c67f2fe216bf9933d787e6e5e1f564",
+      "whitelist": true
+    },
+    {
+      "package": "org.smarttube.stable",
+      "icon": "store_smarttube",
+      "name": "SmartTube",
+      "description": "Xem YouTube không quảng cáo, giao diện cho màn hình ngang, tự bỏ qua đoạn tài trợ.",
+      "versionName": "32.68",
+      "versionCode": 2458,
+      "sizeMb": 25.1,
+      "url": "https://github.com/yuliskov/SmartTube/releases/download/32.68s/SmartTube_stable_32.68_arm64-v8a.apk",
+      "sha256": "0a3d3f024eae66b8468f75fe85ab421169177f5ea1223a5d097d1dc9e1c84cf3",
+      "signerSha256": "109735aa24fe85e2e1623ebb3b1ecc4bf4263f4c6374e4411d646bfa2eda482a"
+    },
+    {
+      "package": "InfinityLoop1309.NewPipeEnhanced",
+      "icon": "store_pipepipe",
+      "name": "PipePipe",
+      "description": "Xem YouTube với cửa sổ video nổi trên bản đồ, tự bỏ qua đoạn tài trợ.",
+      "versionName": "5.5.0",
+      "versionCode": 111004,
+      "sizeMb": 31.1,
+      "url": "https://github.com/InfinityLoop1308/PipePipe/releases/download/v5.5.0/PipePipe_5.5.0-arm64-v8a-release.apk",
+      "sha256": "dfac608d4802b461252550a0485f779a12fd198f18dce77afa90cd441568f06f",
+      "signerSha256": "dec73429ce2563275f5ed19825e44652b32b363a46f38bdff9ad6dcde4842d88",
+      "overlay": true
+    },
+    {
+      "package": "com.dd3boh.outertune",
+      "icon": "store_outertune",
+      "name": "OuterTune",
+      "description": "Nghe YouTube Music không quảng cáo.",
+      "versionName": "0.10.1",
+      "versionCode": 71,
+      "sizeMb": 9.6,
+      "url": "https://github.com/OuterTune/OuterTune/releases/download/v0.10.1/OuterTune-0.10.1-core-release-71.apk",
+      "sha256": "115a5df8e5f9aecbb4c7e65b8b8ea5053fb64e5111b3116e01bae803426d138c",
+      "signerSha256": "acdd871a3de2947d3253ec90cdc53d1a0740d6038e25a6485d71899eefa96db8"
+    },
+    {
+      "package": "me.knighthat.kreate",
+      "icon": "store_kreate",
+      "name": "Kreate",
+      "description": "Nghe YouTube Music, giao diện tối nút bấm lớn (kế nhiệm RiMusic).",
+      "versionName": "2.2.4",
+      "versionCode": 1422,
+      "sizeMb": 14.8,
+      "url": "https://github.com/knighthat/Kreate/releases/download/v2.2.4/Kreate-arm64-v8a.apk",
+      "sha256": "10a983175b34c25f9c03a04feb2bb43b27e6f79a29ba1f31c7b873ca94ed48f7",
+      "signerSha256": "1bd03a8de5df4dbd7faddb81b9f2aaf55681a584a93d6fb47e9a5ccc736ef7ac"
+    }
+  ]
+}
